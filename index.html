@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player Search</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h1>Player Search</h1>
+      <div class="search-section">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search for players by letter..."
+        />
+        <button id="search-button">Search</button>
+      </div>
+      <div class="main-content">
+        <div class="results-section" id="results"></div>
+        <div class="cart-section" id="cart-section">
+          <h3>Cart <span id="cart-count">(0)</span></h3>
+          <ul id="cart-items"></ul>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Player Search. All rights reserved.</p>
+      <div class="social-media">
+        <a href="https://facebook.com" target="_blank"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://instagram.com" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://twitter.com" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
